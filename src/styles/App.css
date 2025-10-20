@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.nav ul{
+  list-style: none;
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tarjetaProducto {
+  width: 250px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.tarjetaProducto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tarjetaProducto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.tarjetaProducto h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.tarjetaProducto p {
+  color: #333;
+  font-weight: bold;
+}
+
+.tarjetaProducto button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tarjetaProducto button:hover {
+  background-color: #0056b3;
+}
+
+.carrito {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btnVolver {
+  display: block;
+  margin: 20px auto;
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
